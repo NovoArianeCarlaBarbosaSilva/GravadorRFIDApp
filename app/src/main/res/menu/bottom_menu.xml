@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Modo padrão" android:icon="@drawable/dashboard" android:id="@+id/mainActivity"/>
+    <item android:title="Ler RFID" android:icon="@drawable/ic_signal" android:id="@+id/listActivity"/>
+    <item android:title="Modo restrito" android:icon="@drawable/ic_rfid" android:id="@+id/loginActivity"/>
+</menu>

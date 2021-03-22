@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SIERF Gravador</string>
+    <string name="tab_text_1">Ler</string>
+    <string name="tab_text_2">Editar</string>
+    <string name="tab_text_3">Gravar</string>
+    <string name="tab_text_4">Apagar</string>
+    <string name="tab_text_5">Matar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

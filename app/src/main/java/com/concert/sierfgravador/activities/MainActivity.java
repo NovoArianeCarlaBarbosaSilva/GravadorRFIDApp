@@ -43,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
         viewPager.setAdapter(sectionsPagerAdapter);
         TabLayout tabs = findViewById(R.id.tabs);
         tabs.setupWithViewPager(viewPager);
+        if(restrictedMode) tabs.setTabMode(TabLayout.MODE_SCROLLABLE);
+        else tabs.setTabMode(TabLayout.MODE_FIXED);
 
         dialog = new Dialog(this);
 
